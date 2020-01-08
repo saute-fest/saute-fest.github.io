@@ -1,0 +1,27 @@
+.tblock {
+  border: 5px black solid;
+  padding-left: 20px;
+}
+
+.title {
+
+}
+
+.heading {
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.regblock embed {
+  border: 2px black solid;
+  margin-top: 20px;
+  height: 300px;
+  width: 100%;
+}
+
+.search {
+  margin-top: 20px;
+  width:50px;
+  text-align: right;
+  border: 5px black solid;
+}
