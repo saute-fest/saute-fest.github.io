@@ -2,15 +2,59 @@ table {
   border: 2px black solid;
   width: 100%;
   height: 750px;
+  background: rgb(100,100,100);
 }
 
 td {
-  border: 2px black solid;
+  color: black;
   width: 33%;
+}
+
+td:hover {
+  color:white;
 }
 
 td {
   text-align: center;
   font-size: 30px;
   font-family: "arial";
+  transition: .2s;
+  background: rgb(100,100,100);
+}
+
+.hom:hover {
+  background: rgb(0,255,200);
+}
+.sch:hover {
+  background: rgb(255,200,0);
+}
+.abt:hover {
+  background: rgb(3,252,90);
+}
+.mat:hover {
+  background: rgb(132,252,3);
+}
+.sci:hover {
+  background: rgb(161,3,252);
+}
+.his:hover {
+  background: rgb(252,3,252);
+}
+.eng:hover {
+  background: rgb(252,3,107);
+}
+.art:hover {
+  background: rgb(157,252,3);
+}
+.cok:hover {
+  background: rgb(3,244,252);
+}
+.lan:hover {
+  background: rgb(3,90,252);
+}
+.cmp:hover {
+  background: rgb(90,3,252);
+}
+.ecm:hover {
+  background: rgb(252,82,3);
 }
