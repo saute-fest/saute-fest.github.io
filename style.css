@@ -21,7 +21,15 @@
 
 .search {
   margin-top: 20px;
-  width:50px;
+  width: 100% - 5px;
+  background: none;
+  display: block;
+  transform:translateY(-158px);
+
   text-align: right;
-  border: 5px black solid;
+
+}
+
+.searchbar {
+  border: 5px solid black;
 }
