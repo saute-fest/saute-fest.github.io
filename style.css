@@ -1,35 +1,16 @@
-.tblock {
-  border: 5px black solid;
-  padding-left: 20px;
-}
-
-.title {
-
-}
-
-.heading {
-  font-size: 20px;
-  margin-top: 30px;
-}
-
-.regblock embed {
+table {
   border: 2px black solid;
-  margin-top: 20px;
-  height: 300px;
   width: 100%;
+  height: 750px;
 }
 
-.search {
-  margin-top: 20px;
-  width: 100% - 5px;
-  background: none;
-  display: block;
-  transform:translateY(-158px);
-
-  text-align: right;
-
+td {
+  border: 2px black solid;
+  width: 33%;
 }
 
-.searchbar {
-  border: 5px solid black;
+td {
+  text-align: center;
+  font-size: 30px;
+  font-family: "arial";
 }
