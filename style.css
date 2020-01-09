@@ -49,9 +49,7 @@ html, body {
 
 .notes {
   width: 80%;
-  height: 90%;
-  color: red;
-  background-color: green;
+  height: 89%;
   position: relative;
   left: 10%;
 }
