@@ -2,5 +2,10 @@
   border: 1px black solid;
 }
 .topbar {
+  margin-top: 25px;
+  padding-left: 25px;
+}
 
+.bottom {
+  height: 25px;
 }
