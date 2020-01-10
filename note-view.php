@@ -19,10 +19,7 @@
     <div class="ribbon">Placeholder</div>
     <?php
 
-$servername = "remotemysql.com";
-$username = "47l2llZFr2";
-$password = "PVXhNkpCeT";
-$dbname = "47l2llZFr2";
+//enter vars here
 
 $conn = mysqli_connect($servername, $username, $password, $dbname);
 
