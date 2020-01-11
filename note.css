@@ -5,7 +5,18 @@
   margin-top: 25px;
   padding-left: 25px;
 }
+body {
+  height:auto;
+}
 
 .bottom {
+  position: absolute;
+  bottom: 0px;
+  height: 25px;
+}
+
+.top {
+  position: absolute;
+  top: 0px;
   height: 25px;
 }
