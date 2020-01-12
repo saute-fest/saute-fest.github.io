@@ -4,40 +4,107 @@
 <head>
   <!--- this is a note sharing webiste --->
   <title>Commentarium</title>
-  <link rel="stylesheet" type="text/css" href="index.css">
-  </link>
+  <link rel="stylesheet" type="text/css" href="index.css"></link>
+  <link rel="stylesheet" type="text/css" href="index2.css"></link>
+  <link rel="stylesheet" type="text/css" href="index3.css"></link>
+  <style>
+    .over {
+      overflow: hidden;
+      height: 725px;
+    }
+  </style>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
 </head>
 
 <body onload="act()">
-  <!---top bar--->
-  <table style="border:0">
-    <tr>
-      <td class="hom" colspan=2>
-        <h1 class="headPiece">Commentarium</h1>
-        <h2>Next-Gen Note Sharing</h2>
-      </td>
-      <td class="sch">Search</td>
-      <!---<td class="abt">About</td>--->
-    </tr>
-    <tr>
-      <td class="mat">Math</td>
-      <td class="sci">Science</td>
-      <td class="his">History</td>
-    </tr>
-    <tr>
-      <td class="eng">English</td>
-      <td class="art">Music and Arts</td>
-      <td class="cok">Cooking</td>
-    </tr>
-    <tr>
-      <td class="lan">Foreign Language</td>
-      <td class="cmp">Computer Science</td>
-      <td class="ecm">Economics</td>
-    </tr>
-  </table>
+  <div class="over">
+    <div class="topbar">
+      <div class="item hom" style="text-align: left;">
+        <h1>Commentarium</h1>
+        <h2>A Note-Sharing Service</h2>
+      </div>
+      <div class="item sch"><p style="transform:translateY(120px);">Discover</p></div>
+      <div class="item mat"><p>Technology</p></div>
+      <div class="item sci"><p>Science</p></div>
+      <div class="item his"><p>History</p></div>
+      <div class="item eng"><p>English</p></div>
+      <div class="item art"><p>Math</p></div>
+      <div class="item cok"><p>Home Ec</p></div>
+      <div class="item lan"><p>Foreign Language</p></div>
+      <div class="item cmp"><p>Economics</p></div>
+      <div class="item ecm"><p>The Arts</p></div>
+    </div>
+    <br>
+    <div class="decr">
+      <div class="item a"></div>
+      <div class="item b"></div>
+      <div class="item c"></div>
+      <div class="item d"></div>
+      <div class="item e"></div>
+      <div class="item f"></div>
+      <div class="item g"></div>
+      <div class="item h"></div>
+      <div class="item i"></div>
+      <!---<div class="item j">10</div>-->
+      <!---<div class="item k">11</div>--->
+    </div>
+    <div class="decr1">
+      <div class="item aa"></div>
+      <div class="item ba"></div>
+      <div class="item ca"></div>
+      <div class="item da"></div>
+      <div class="item ea"></div>
+      <div class="item fa"></div>
+      <div class="item ga"></div>
+      <div class="item ha"></div>
+      <div class="item ia"></div>
+      <!---<div class="item j">10</div>-->
+      <!---<div class="item k">11</div>--->
+    </div>
+    <div class="decr2">
+      <div class="item ab"></div>
+      <div class="item bb"></div>
+      <div class="item cb"></div>
+      <div class="item db"></div>
+      <div class="item eb"></div>
+      <div class="item fb"></div>
+      <div class="item gb"></div>
+      <div class="item hb"></div>
+      <div class="item ib"></div>
+      <!---<div class="item j">10</div>-->
+      <!---<div class="item k">11</div>--->
+    </div>
 
+    <!---backgroudn overlay for style--->
+    <div class="overlay">
+      <table style="border:0">
+      <tr>
+        <td colspan="2" class="o1a dcor">
+          <h1 style="color: white;">.</h1>
+          <h2 style="color: white;">.</h2>
+        </td>
+        <td class="o1b dcor"></td>
+        <td class="o1c dcor"></td>
+      </tr>
+      <tr>
+        <td class="o2a dcor"></td>
+        <td class="o2b dcor"></td>
+        <td class="o2c dcor"></td>
+      </tr>
+      <tr>
+        <td class="o3a dcor"></td>
+        <td class="o3b dcor"></td>
+        <td class="o3c dcor"></td>
+      </tr>
+      <tr>
+        <td class="o4a dcor"></td>
+        <td class="o4b dcor"></td>
+        <td class="o4c dcor"></td>
+      </tr>
+    </table>
+    </div>
+  </div>
   <script>
 
 function act() {

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--- this is a note sharing webiste --->
+  <title>Commentarium</title>
+  <link rel="stylesheet" type="text/css" href="index.css"></link>
+  <link rel="stylesheet" type="text/css" href="index2.css"></link>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+</head>
+
+<body onload="act()">
+  <!---top bar--->
+  <table class="select" style="border:0">
+    <tr>
+      <td class="hom ovr" colspan=2>
+        <h1 class="headPiece">Commentarium</h1>
+        <h2>Next-Gen Note Sharing</h2>
+      </td>
+      <td class="sch ovr">Search</td>
+      <!---<td class="abt">About</td>--->
+    </tr>
+    <tr>
+      <td class="mat ovr">Math</td>
+      <td class="sci ovr">Science</td>
+      <td class="his ovr">History</td>
+    </tr>
+    <tr>
+      <td class="eng ovr">English</td>
+      <td class="art ovr">Music and Arts</td>
+      <td class="cok ovr">Cooking</td>
+    </tr>
+    <tr>
+      <td class="lan ovr">Foreign Language</td>
+      <td class="cmp ovr">Computer Science</td>
+      <td class="ecm ovr">Economics</td>
+    </tr>
+  </table>
+
+  <!---backgroudn overlay for style--->
+  <div class="overlay">
+    <table style="border:0">
+    <tr>
+      <td colspan="2" class="o1a dcor">
+        <h1 style="color: white;">.</h1>
+        <h2 style="color: white;">.</h2>
+      </td>
+      <td class="o1b dcor"></td>
+      <td class="o1c dcor"></td>
+    </tr>
+    <tr>
+      <td class="o2a dcor"></td>
+      <td class="o2b dcor"></td>
+      <td class="o2c dcor"></td>
+    </tr>
+    <tr>
+      <td class="o3a dcor"></td>
+      <td class="o3b dcor"></td>
+      <td class="o3c dcor"></td>
+    </tr>
+    <tr>
+      <td class="o4a dcor"></td>
+      <td class="o4b dcor"></td>
+      <td class="o4c dcor"></td>
+    </tr>
+  </table>
+  </div>
+  <script>
+
+function act() {
+        console.log("hello");
+      }
+
+    $(document).ready(function () {
+
+    });
+
+  </script>
+</body>
+
+</html>
