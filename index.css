@@ -1,60 +1,41 @@
-table {
-  border: 2px black solid;
-  width: 100%;
-  height: 750px;
-  background: white;
-}
-
-td {
-  color: black;
-  width: 33%;
-}
-
-td:hover {
-  color:white;
-}
-
-td {
-  text-align: center;
-  font-size: 30px;
-  font-family: "arial";
-  transition: .2s;
-  background: white;
-}
-
 .hom {
   background: white;
 }
-.sch:hover {
-  background: rgb(255,200,0);
+.dis:hover {
+  background: rgba(255,200,0, 60%);
 }
 .abt:hover {
-  background: rgb(3,252,90);
+  background: rgba(3,252,90, 60%);
 }
 .mat:hover {
-  background: rgb(132,252,3);
+  background: rgba(132,252,3, 60%);
 }
 .sci:hover {
-  background: rgb(161,3,252);
+  background: rgba(161,3,252, 60%);
 }
 .his:hover {
-  background: rgb(252,3,252);
+  background: rgba(252,3,252, 60%);
 }
 .eng:hover {
-  background: rgb(252,3,107);
+  background: rgba(252,3,107, 60%);
 }
 .art:hover {
-  background: rgb(157,252,3);
+  background: rgba(157,252,3, 60%);
 }
 .cok:hover {
-  background: rgb(3,244,252);
+  background: rgba(3,244,252, 60%);
 }
 .lan:hover {
-  background: rgb(3,90,252);
+  background: rgba(3,90,252, 60%);
 }
 .cmp:hover {
-  background: rgb(90,3,252);
+  background: rgba(90,3,252, 60%);
 }
 .ecm:hover {
-  background: rgb(252,82,3);
+  background: rgba(252,82,3, 60%);
+}
+#tras {
+  transform:translateY(400%);
+}
+.hom:hover, .dis:hover, .abt:hover, .mat:hover, .sci:hover, .his:hover, .eng:hover, .art:hover, .cok:hover, .lan:hover, .cmp:hover, .ecm:hover {
 }
