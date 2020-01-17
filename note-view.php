@@ -1,25 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <link rel="stylesheet" href="style.css"></link>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script>
+<?php
 
-        $(document).load(function() {
-            
-        });
-
-
-        
-
-
-    </script>
-</head>
-<body>
-    <div class="ribbon">Placeholder</div>
-    <?php
-
-//enter vars here
+//vars here DONT FUCKING UPLOAD THIS TO GITHUB WITH THE FUCKING VARS IN THIS USE IT ON YOU LOCAL MACHINE GITHUB PAGES DOESNT EVEN TO SQL 
 
 $conn = mysqli_connect($servername, $username, $password, $dbname);
 
@@ -30,9 +11,6 @@ $conn = mysqli_connect($servername, $username, $password, $dbname);
 
         while ($row = mysqli_fetch_assoc($result)) {
             $path = $row['path'];
-            echo '<iframe class="notes" src="'.$path.'">';
         }
   
         ?>
-</body>
-</html>

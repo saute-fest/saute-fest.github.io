@@ -1,3 +1,4 @@
+<?php require ('note-view.php'); ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -17,7 +18,9 @@
   </div>
 
   <div class="display">
-    hi
+  <div class="display">
+   <iframe src='<?php echo $path; ?>'></iframe>
+</div>
   </div>
 
   <div>
