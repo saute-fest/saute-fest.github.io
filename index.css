@@ -1,5 +1,6 @@
 .hom {
   background: white;
+  overflow: hidden;
 }
 .dis:hover {
   background: rgba(255,200,0, 60%);

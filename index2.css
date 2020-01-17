@@ -1,7 +1,7 @@
 .topbar {
   display: grid;
   grid-template-columns: 33% 33% 33%;
-  grid-template-rows: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%
   grid-row-gap: 10px;
   grid-column-gap: 5px;
 }
@@ -12,8 +12,11 @@
   transition: .3s;
   padding-left: 20px;
   border-style: outset;
+  margin-bottom: 10px;
 }
-
+.dis {
+  margin-bottom: 10px;
+}
 .item {
   font-size: 20px;
   text-align: center;
