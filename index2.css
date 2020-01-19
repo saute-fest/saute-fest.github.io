@@ -61,3 +61,18 @@
 .ecm {
 
 }
+
+button.slct {
+  background: none;
+  width: 100%;
+  height: 100%;
+  display: block;
+  border: none;
+  outline: none;
+}
+p {
+  font-size: 17px;
+}
+a {
+  text-decoration: none;
+}
