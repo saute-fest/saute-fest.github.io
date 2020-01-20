@@ -22,3 +22,12 @@ body {
 .rem {
 
 }
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+iframe {
+  width: 640px;
+  height: 644px;
+}

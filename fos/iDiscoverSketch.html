@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    #processing-canvas {
+    }
+    canvas {
+      margin: -8px;
+    }
+  </style>
+  <script src="../ref/processing.js"></script>
+  <script type="text/processing" data-processing-target="processing-canvas">
+
+    //these are just varaibes so that you can adjust interval
+    let sw = 640;
+    let sh = 640;
+    let numRow = 8;
+    let numCol = 8;
+    let boxW = sw / numCol;
+    let boxH = sh / numRow;
+
+    let xpos = 5;
+    let ypos = 5;
+    //for the actual box
+    let board = [
+      [0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0],
+      [0,0,0,1,0,0,0,0],
+      [0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0],
+    ];
+
+    void setup() {
+      size(sw,sh);
+    }
+    void createBoxes() {
+      for (int i = 0; i < numCol; i++) {
+        for (int j = 0; j < numRow; j++) {
+          stroke(0,0,0);
+          detDraw(board[j][i], i, j);
+        }
+      }
+    }
+    void genBoard() {
+      
+    }
+    void genBoard2() {
+      for (int i = 0; i < numCol; i++) {
+        for (int j = 0; j < numRow; j++) {
+          if (i === xpos && j === ypos) {
+            board[j][i] = 1;
+          } else {
+            board[j][i] = 0;
+          }
+        }
+      }
+    }
+    void detDraw(type,i,j) {
+      if (type === 1) {
+        fill(0,0,0);
+      } else {
+        fill(150,150,150);
+      }
+      rect(i*boxW,j*boxH,boxW,boxH);
+    }
+
+    void translate(dir,i,j) {
+      switch (dir) {
+        case "up":
+          board[j-1][i] = 1;
+          board[j][i] = 0;
+      }
+    }
+
+    void keyPressed() {
+      switch (keyCode) {
+        case 87:
+          translate("up",5,5);
+        break;
+
+        case 83:
+        break;
+      }
+      println(keyCode);
+    }
+
+    void draw() {
+      createBoxes();
+    }
+  </script>
+</head>
+<body>
+    <canvas id="processing-canvas" data-processing-sources="hello-web.pde"></canvas>
+</body>
+
+</html>
