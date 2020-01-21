@@ -1,11 +1,16 @@
-.head {
+.head, .upload {
   border-radius: 40px;
   width: 80%;
   margin: auto;
   padding: 50px;
-  min-height: 200px;
   background: white;
 
+}
+.head {
+  min-height: 200px;
+}
+.upload {
+  min-height: 100px;
 }
 
 body {
@@ -19,15 +24,8 @@ body {
   height: 2000px;
 }
 
-.rem {
-
-}
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-iframe {
-  width: 640px;
-  height: 644px;
+.upld {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
 }
