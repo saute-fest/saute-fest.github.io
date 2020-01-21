@@ -1,0 +1,33 @@
+.head {
+  border-radius: 40px;
+  width: 80%;
+  margin: auto;
+  padding: 50px;
+  min-height: 200px;
+  background: white;
+
+}
+
+body {
+  background-size: auto auto;
+  background-image: url("../ref/discover.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  height: 2000px;
+}
+
+.rem {
+
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+iframe {
+  width: 640px;
+  height: 644px;
+}
