@@ -5,3 +5,5 @@ connection = sqlite3.connect("remotemysql.com")
 crsr = connection.cursor() 
 
 crsr.execute(sql: "remotemysql.com")
+
+crsr.execute("SELECT * FROM remotemysql.com")  
