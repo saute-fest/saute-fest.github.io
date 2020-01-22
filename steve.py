@@ -1,4 +1,5 @@
-import numpy as np
+import sqlite3
 
-def createWebsite():
-    
+connection = sqlite3.connect("remotemysql.com") 
+#connecting to the SQL database ^
+crsr = connection.cursor() 
