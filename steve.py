@@ -4,7 +4,7 @@ connection = sqlite3.connect("remotemysql.com")
 #connecting to the SQL database ^
 crsr = connection.cursor() 
 
-crsr.execute("SELECT * FROM remotemysql.com")  
+crsr.execute("SELECT * FROM ")  
 
 # store all the fetched data in the ans variable 
 ans= crsr.fetchall()  
