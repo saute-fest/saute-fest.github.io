@@ -6,7 +6,7 @@
   grid-column-gap: 5px;
 }
 .hom {
-  grid-row: 1 / 3;
+  grid-row: 1 / 4;
   grid-column: 1 / 3;
   font-size: 35px;
   transition: .3s;
@@ -29,9 +29,9 @@
   font-family: "arial";
 }
 .dis {
-  grid-row: 1 / 3;
+  grid-row: 1 / 4;
 }
-/*.abt {
+.abt {
 
 }
 .mat {
@@ -61,7 +61,7 @@
 .ecm {
 
 }
-*/
+
 button.slct {
   background: none;
   width: 100%;
