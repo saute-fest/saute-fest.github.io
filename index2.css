@@ -31,9 +31,9 @@
 .dis {
   grid-row: 1 / 4;
 }
-/*.abt {
+.abt {
 
-}=
+}
 .mat {
 
 }
@@ -61,7 +61,7 @@
 .ecm {
 
 }
-*/
+
 button.slct {
   background: none;
   width: 100%;
