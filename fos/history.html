@@ -4,12 +4,24 @@
   <title>History</title>
   <link rel="stylesheet" type="text/css" href="history.css" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script type="text/javascript">
-    $(document).ready(function() {
-      $('#body').hide();
-      $('#msg').show();
-    });
-  </script>
+  <script>
+        setTimeout(function () {
+          var r = `<h1>History</h1>
+    <h2>Search Classes</h2>
+    <form name="search">
+      <input type="text"></input>
+    </form>
+    <h2>Upcoming Tests</h2>
+    <div></div>
+    <a href="../index.html">Back</a>
+  </div>";
+    }, 3000);
+    `;
+
+          document.getElementById("msg").innerHTML = r;
+    }, 3000);
+
+</script>
 </head>
 <body>
 
@@ -18,22 +30,5 @@
     Loading, please wait...
   </div>
 
-  <div id="body" display="none">
-    <h1>History</h1>
-    <h2>Search Classes</h2>
-    <form name="search">
-      <input type="text"></input>
-    </form>
-    <h2>Upcoming Tests</h2>
-    <div></div>
-    <a href="../index.html">Back</a>
-  </div>
-
-  <script type="text/javascript">
-    $(document).ready(function() {
-      $('#body').show();
-      $('#msg').hide();
-    });
-  </script>
 </body>
 </html>
