@@ -6,7 +6,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script>
         setTimeout(function () {
-          var r = `<h1>History</h1>
+        var r = `<h1>History</h1>
     <h2>Search Classes</h2>
     <form name="search">
       <input type="text"></input>
@@ -18,15 +18,15 @@
     `;
 
           document.getElementById("msg").innerHTML = r;
-    }, 3000);
+    }, 400);
 
 </script>
 </head>
 <body>
 
-  <div id="msg" style="font-size:largest;">
+  <div id="msg">
     <!-- you can set whatever style you want on this -->
-    Loading, please wait...
+    <p id="load">Loading, please wait...</p>
   </div>
 
 </body>

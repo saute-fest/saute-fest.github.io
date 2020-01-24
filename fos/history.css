@@ -8,4 +8,9 @@ body {
 
   height: 2000px;
 }
-
+#load {
+  font-size: 5VW;
+  transform:translateY(30VH);
+  font-family: roman;
+  text-align: center;
+}
