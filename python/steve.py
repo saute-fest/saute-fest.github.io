@@ -4,7 +4,7 @@ connection = sqlite3.connect("remotemysql.com")
 # connecting to the SQL database ^
 crsr = connection.cursor()
 
-crsr.execute("SELECT * FROM ")
+crsr.execute("SELECT * FROM 'file'")
 # I need access to SQL for Steve to do his job^
 
 ans= crsr.fetchall()
