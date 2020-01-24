@@ -1,16 +1,16 @@
 .head, .upload {
   border-radius: 40px;
   width: 80%;
-  margin: auto;
-  padding: 50px;
+  margin: 5VH 1.7VW;
+  padding: 13VH 8VW;
   background: white;
 
 }
 .head {
-  min-height: 200px;
+  min-height: 13.89VH;
 }
 .upload {
-  min-height: 100px;
+  min-height: 6.94VH;
 }
 
 body {
