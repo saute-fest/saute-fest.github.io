@@ -6,7 +6,8 @@ connection = mysql.connect("remotemysql.com")
 crsr = connection.cursor()
 
 crsr.execute("SELECT * FROM 'file'")
-# I need access to SQL for Steve to do his job^
+# I need access to SQL for Steve to do his job
+# steve would like you to visit https://www.w3schools.com/python/python_mysql_getstarted.asp
 
 ans= crsr.fetchall()
 # store all the fetched data in the ans variable^
