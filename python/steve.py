@@ -1,6 +1,7 @@
 import sqlite3
+import mysql.connect
 
-connection = sqlite3.connect("remotemysql.com")
+connection = mysql.connect("remotemysql.com")
 # connecting to the SQL database ^
 crsr = connection.cursor()
 
