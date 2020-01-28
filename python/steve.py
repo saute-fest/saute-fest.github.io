@@ -8,7 +8,7 @@ db = mysql.connector.connect(
 )
 mycursor = db.cursor()
 
-sql = "SELECT * FROM files ORDER BY id"
+sql = "SELECT * FROM files ORDER BY tags"
 
 mycursor.execute(sql)
 
