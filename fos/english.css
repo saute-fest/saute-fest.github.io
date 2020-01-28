@@ -1,0 +1,11 @@
+body {
+    background-size: auto auto;
+    background-image: url("http://www.wikihow.com/images/0/01/Dedicate-a-Book-Step-15.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    height: 2000px;
+  }
+  
