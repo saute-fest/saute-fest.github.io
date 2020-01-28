@@ -8,7 +8,10 @@ db = mysql.connector.connect(
 )
 mycursor = db.cursor()
 
-mycursor.execute("SELECT * FROM  files WHERE id=48")
+sql = "SELECT * FROM files ORDER BY id"
+
+mycursor.execute(sql)
+
 
 myresult = mycursor.fetchall()
 
