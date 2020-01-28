@@ -8,7 +8,7 @@ db = mysql.connector.connect(
 )
 mycursor = db.cursor()
 
-sql = "SELECT * FROM files ORDER BY tags"
+sql = "SELECT * FROM files ORDER BY alpha"
 
 mycursor.execute(sql)
 
