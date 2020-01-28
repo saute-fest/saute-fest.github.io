@@ -1,5 +1,9 @@
 <?php
 //VARS PINNED IN THE DISCORD
+$servername = "remotemysql.com";
+$username = "47l2llZFr2";
+$password = "92Mb7L9qCW";
+$dbname = "47l2llZFr2";
 $conn = mysqli_connect($servername, $username, $password, $dbname);
 
 
