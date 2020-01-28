@@ -3,7 +3,7 @@ import mysql.connector
 db = mysql.connector.connect(
     host="remotemysql.com",
     user="47l2llZFr2",
-    passwd="92MbL79qCW",
+    passwd="92Mb7L9qCW",
     database="47l2llZFr2"
 )
 mycursor = db.cursor()
