@@ -1,17 +1,18 @@
-import sqlite3
-import mysql.connect
+import mysql.connector
 
-connection = mysql.connect("remotemysql.com")
-# connecting to the SQL database ^
-crsr = connection.cursor()
+db = mysql.connector.connect(
+    host="remotemysql.com",
+    user="47l2llZFr2",
+    passwd="92Mb7L9qCW",
+    database="47l2llZFr2"
+)
+mycursor = db.cursor()
 
-crsr.execute("SELECT * FROM 'file'")
-# I need access to SQL for Steve to do his job
-# steve would like you to visit https://www.w3schools.com/python/python_mysql_getstarted.asp
+mycursor.execute("SELECT * FROM  files WHERE id=48")
 
-ans= crsr.fetchall()
-# store all the fetched data in the ans variable^
+myresult = mycursor.fetchall()
 
-for i in ans:
-    print(i)
-# loop to print all the data ^  
+for x in myresult:
+  print(x)
+
+print(db)
