@@ -1,5 +1,5 @@
 import mysql.connector
-# Patrick Stop Changing the mother-fucking SQL password
+
 db = mysql.connector.connect(
     host="remotemysql.com",
     user="47l2llZFr2",
