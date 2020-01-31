@@ -31,7 +31,13 @@ body {
 }
 
 input {
-  border: 1px solid black;
-  border-radius: 15%;
   padding: 15px;
+  z-index: -1;
+}
+.border {
+  border: 2px black solid;
+}
+div.border {
+  width: 60%;
+  z-index: 3;
 }
