@@ -1,0 +1,23 @@
+body {
+  background-size: auto auto;
+  /*background-image: url("../ref/history.jpg");*/
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  height: 2000px;
+}
+#back {
+  position: absolute;
+  z-index: -1;
+  width: 100VW;
+  height: 100VH;
+  transform: translate(-2VW, -3VH);
+  border: 2px solid black;
+}
+#tb {
+  border:2px solid black;
+  width: 99VW;
+  height: 100VH;
+}
