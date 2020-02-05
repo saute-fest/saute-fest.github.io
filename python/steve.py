@@ -13,7 +13,6 @@ sql = "SELECT * FROM files ORDER BY alpha='history' DESC limit 2"
 
 mycursor.execute(sql)
 
-
 myresult = mycursor.fetchall()
 
 for x in myresult:
