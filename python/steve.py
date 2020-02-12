@@ -9,7 +9,7 @@ db = mysql.connector.connect(
 mycursor = db.cursor()
 
 
-sql = "SELECT * FROM files ORDER BY alpha='history' DESC LIMIT 2"
+sql = "SELECT * FROM files ORDER BY alpha='history', author='hfi' DESC"
 
 mycursor.execute(sql)
 
